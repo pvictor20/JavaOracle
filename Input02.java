@@ -35,22 +35,22 @@ public class Input02 {
  * 
  */
 
-import javax.swing.JOptionPane;
+//import javax.swing.JOptionPane;
 
 public class Input02 {
     public static void main(String[] args) {
         
-        JOptionPane.showMessageDialog(null,
-                "Essa é a menssagem do título, aparentemente está dando certo", "Titulo", 0 );
+        //JOptionPane.showMessageDialog(null,
+               // "Essa é a menssagem do título, aparentemente está dando certo", "Titulo", 0 );
 
         
-        String input1 = (String)JOptionPane.showInputDialog(null,
-                "Escreva alguma coisa","Texto ", 2, null, null, "Escreva aqui.");
+        //String input1 = (String)JOptionPane.showInputDialog(null,
+               // "Escreva alguma coisa","Texto ", 2, null, null, "Escreva aqui.");
         
         
-        String[] acceptableValues = {"Choice 1", "Choice 2", "Choice 3"};
-        String input2 = (String)JOptionPane.showInputDialog(null,
-                "Opções", "opção", 2, null, acceptableValues, acceptableValues[1]);
+       // String[] acceptableValues = {"Choice 1", "Choice 2", "Choice 3"};
+        //String input2 = (String)JOptionPane.showInputDialog(null,
+                //Opções", "opção", 2, null, acceptableValues, acceptableValues[1]);
                 
     }
 }
