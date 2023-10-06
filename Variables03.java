@@ -54,15 +54,15 @@ public class Variables03 {
         String stringVar2 = "var2";
 
         //Don't edit these print statements
-        System.out.println("bool = "        +bool);
-        System.out.println("intVar1 = "     +intVar1);
-        System.out.println("intVar2 = "     +intVar2);
-        System.out.println("intVar3 = "     +Var3);
-        System.out.println("doubleVar1 = "  +doubleVar1);
-        System.out.println("doubleVar2 = "  +doubleVar2);
-        System.out.println("doubleVar3 = "  +doubleVar3);
-        System.out.println("doubleVar4 = "  +doubleVar4);
-        System.out.println("stringVar1 = "  +(stringVar1 +1));
-        System.out.println("stringVar2 = "  +(stringVar2 +2));
+        System.out.println("bool = "        + bool);
+        System.out.println("intVar1 = "     + intVar1);
+        System.out.println("intVar2 = "     + intVar2);
+        System.out.println("intVar3 = "     + Var3);
+        System.out.println("doubleVar1 = "  + doubleVar1);
+        System.out.println("doubleVar2 = "  + doubleVar2);
+        System.out.println("doubleVar3 = "  + doubleVar3);
+        System.out.println("doubleVar4 = "  + doubleVar4);
+        System.out.println("stringVar1 = "  + (stringVar1 +1));
+        System.out.println("stringVar2 = "  + (stringVar2 +2));
     }
 }
