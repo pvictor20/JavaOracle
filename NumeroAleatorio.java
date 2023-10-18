@@ -4,5 +4,9 @@ public class NumeroAleatorio {
         Random rndNum = new Random();
         int randomNum = rndNum.nextInt();
         System.out.println("Número aleatório: " + randomNum);
+
+        var num = new Random();
+        int numAleatorio = num.nextInt(10);
+        System.out.println("Número aleatório entre 0 e 10: " + numAleatorio);
     }
 }
