@@ -14,5 +14,15 @@ public class PrisonTest {
         bubba = twitch; //Para ver tipo de memória heap e stack;
 
         System.out.println(bubba == twitch);
+
+
+        //Isso para não ficar repetindo linha de código.
+        Prisoner p01 = new Prisoner();
+        Prisoner p02 = new Prisoner();
+
+        p01.setField("Hugo", 2.0, 5);
+        p02.setField("Jorge", 1.73, 2);
+
+
     }
 }
